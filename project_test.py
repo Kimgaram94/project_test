@@ -7,8 +7,7 @@ import pandas as pd
 st.title('책 제목을 통한 유사 도서 추천')
 
 st.text_input("책 제목을 입력해주세요")
-st.title(fname)
-    
+
 if st.button("검색"):
     st.write("유사 도서 제목을 출력합니다.")
     
